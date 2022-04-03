@@ -30,14 +30,17 @@ overflow: hidden;
     font-weight: 400;
 }
 .des {
-    color: #757575;
-
+    color: #757575; 
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 16px;
 }
 
 
 .rating {
 color:#757575;
-
+font-size: 14px;
+font-weight: 100;
 }
 
 .rating span {color: #ffd600;}
