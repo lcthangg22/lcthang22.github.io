@@ -1,0 +1,43 @@
+@import url(./base.css);
+@import url(./component.css);
+@import url(./reponsive.css);
+:root {
+    --color-text: #3f506b;
+    --color-heading: #943855;
+    --width:100px;
+    --height:100px;
+}
+
+.text {
+    font-size: 2rem;
+    color: var(--color-text);
+}
+
+.text-1 {
+    --color-text:#389457;
+    font-size: 2rem;
+    color: var(--color-text);
+}
+
+.box {
+    font-size: 20px;
+    width: 50vw;
+    background-color: blueviolet;
+}
+.box p {
+    font-size: 3em;
+    color: var(--color-heading);
+
+}
+
+.parent {
+    width: calc(100% - 300px) ;
+    height: 500px;
+    background-color: aqua;
+}
+
+.children {
+    
+    height: 100%;
+    background-color: brown;
+}

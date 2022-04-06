@@ -1,0 +1,85 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    width: 420px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+.year {
+    background-color: #ef5321;
+    color: #fff;
+    text-align: center;
+    padding: 6px 0;
+}
+
+.year p {
+    font-weight: 300;
+}
+
+.date {
+    background-color: #fe6d3f;
+    color: #fff;
+    text-align: center;
+    padding: 36px 0;
+}
+
+.date h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.date p {
+    font-weight: 300;
+}
+
+.content {
+    box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+    padding: 24px;
+}
+
+.content h2 {
+    text-align: left;
+    font-weight: 400;
+    font-size: 20.8px;
+}
+
+.info {
+    font-weight: 400;
+    font-size: 14.4px;
+    line-height: 21.6px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-bottom: 1px solid #464646;
+}
+
+.info p {
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+span {
+    color: #757575;
+    line-height: 14.4px;
+}
+
+
+.content a {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-bottom: 5px;
+    padding-top: 7px;
+}
