@@ -1,0 +1,160 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.ex {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+    line-height: 25.6px;
+}
+
+.ex1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 360px;
+    width: 720px;
+} 
+
+.ex2 {
+    border: 10px solid #956fe5;
+    height: 668px;
+    margin: 60px 30px 60px 30px;
+    text-align: left;
+}
+
+.ex3 {
+display: flex;
+flex-direction: column;
+flex-basis: 0%;
+height: 648px;
+max-width: 100%;
+padding: 30px;
+position: relative;
+}
+
+.ex3 h2 {
+    display: block;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    line-height: 52.8px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ex3 p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form {   
+    color:#b3b3b3;
+    height: 352.8px;
+    margin-top: 30px;
+}
+
+.form form {    
+    margin-left: -10px;
+    padding: 10px;
+}
+
+.name {
+    height: 47.6px;
+    text-align: start;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+input, textarea {
+    font-family: 'Open Sans', sans-serif;
+}  
+
+.name input {
+    display: block;
+    border: 1px solid #b3b3b3;
+    font-size: 16px;
+    height: 47.6px;
+    padding: 10px 12px 10px 12px;
+    width: 100%;
+}
+
+.email {
+    height: 47.6px;
+    text-align: start;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.email input {
+    border: 1px solid #b3b3b3;
+    font-size: 16px;
+    display: block;
+    height: 47.6px;
+    padding: 10px 12px 10px 12px;
+    width: 100%;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 124.4px;    
+}
+
+.message textarea {
+    border: 1px solid #b3b3b3;
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    height: 124.4px;
+    padding: 10px 12px 10px 12px;
+}
+
+.b {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: #111111;
+    text-align: start;
+}
+
+.b input {
+    font-size: 16px;
+    line-height: 25.6px;
+}
+
+.b label {
+    margin-left: 2px;
+    font-weight: 400;
+    height: 25.6px;
+    width: 212px;
+}
+
+a {
+    color: #956fe5;
+    text-decoration: none;
+}
+
+.s {
+    text-align: center;
+    margin-top: 23px;
+    height: 47.6px;
+    
+}
+
+.submit {
+    background-color: #956fe5;
+    color: #fff;
+    padding: 13px 35px 13px 35px;
+        height: 45.6px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    text-align: center;
+}
+

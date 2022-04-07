@@ -1,0 +1,111 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    color: #111111;
+}
+
+a {
+    text-decoration: none;
+    color: #956fe5;
+}
+
+.ex {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 720px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    border: 10px solid #956fe5;
+    margin: 60px 29px 60px 29px;
+    height: 668px;
+    display: flex;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    line-height: 25.6px;
+    max-width: 100%;
+    padding: 60px 30px 60px 30px;
+}
+
+.info h2 {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 52.8px;
+    text-align: center;
+}
+
+.info p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form {
+    margin-top: 30px;
+    height: 352.8px;
+}
+
+form {
+    height: 352.8px;
+    margin: 10px;
+}
+
+input, textarea {
+    border: 1px solid #b3b3b3;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    font-size: 16px;
+    height: 48px;
+    padding: 10px 12px 10px 12px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#m {
+    height: 124px;
+}
+
+.box {
+    display: flex;
+    height: 25.6px;
+    text-align: start;
+    width: 100%;
+}
+
+#checkbox {
+    display: block;
+    height: 12.8px;
+    width: 12.8px;
+}
+
+label {
+    display:inline-block;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.submit {
+    margin-left: -25px;
+    margin-top: 40px;
+    width: 112px;
+    display: block;
+    background-color: #956fe5;
+    color: #fff;
+}
