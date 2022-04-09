@@ -10,7 +10,7 @@ body {
     background-color: #f4f7fa;
 }
 
-img {
+.tech img {
     max-width: 100%;
     display: block;
     margin: auto;

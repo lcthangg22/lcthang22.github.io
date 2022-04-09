@@ -9,17 +9,21 @@ body {
     background-color: #f4f7fa;
 }
 
-.a-c1 {
-    width: 123px;
-    height: 47px;
-    background-color: #37FCDB;
+.back {
+    background-color: #73AD21;
     color: #fff;
-    padding: 13px 35px 13px 35px;
-    height: 45.6px;
-    margin: auto;
-    margin-top: 30px;
-    margin-left: 400px;
+    border: 2px solid #73AD21;
+    border-radius: 5px;
+    padding: 10px 20px;
     text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.back:hover {
+    background-color: #20F758;
+    text-decoration: none;
+    border: 2px solid #20F758;
 }
 
 .container-c2 {
@@ -55,7 +59,7 @@ body {
 }
 
 .info-c2 {
-background-color: #fff;
+    background-color: #fff;
 }
 
 .info-c2 h2 {
@@ -117,5 +121,3 @@ background-color: #fff;
 .star {
     color: #ffd600;
 }
-
-
