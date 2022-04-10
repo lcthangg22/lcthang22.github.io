@@ -10,9 +10,9 @@ body {
 }
 
 .back {
-    background-color: #73AD21;
+    background-color: #6BCB77;
     color: #fff;
-    border: 2px solid #73AD21;
+    border: 2px solid #6BCB77;
     border-radius: 5px;
     padding: 5px 5px;
     text-align: center;
@@ -22,9 +22,9 @@ body {
 }
 
 .back:hover {
-    background-color: #20F758;
+    background-color: #73AD21;
     text-decoration: none;
-    border: 2px solid #20F758;
+    border: 2px solid #73AD21;
 }
 
 .container-c2 {
