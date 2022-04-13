@@ -17,7 +17,7 @@ body {
     font-size: 12px;
     line-height: 40px;
     height: 100%;
-    margin: 100px;
+    margin: 400px;
 }
 
 .menu>ul {
@@ -91,7 +91,7 @@ ul {
     display: block;
 }
 
-.sub-menu-item:hover #i{
+.sub-menu-item:hover #i {
     display: block;
 }
 
