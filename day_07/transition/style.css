@@ -1,0 +1,79 @@
+.box {
+    width: 200px;
+    background-color: black;
+    color: tomato;
+    margin: auto;
+    padding: 20px;
+
+    overflow: hidden;
+}
+
+.box p {
+    transform: translateX(250px);
+
+    transition: all 1s;
+}
+
+.box h2 {
+    transform: translateX(-150px);
+
+    transition: all 1s;
+}
+
+.box:hover p {
+    transform: translateX(0);
+}
+
+.box:hover h2 {
+    transform: translateX(0);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    transition: all 1s;
+}
+
+.card-image {
+    overflow: hidden;
+}
+
+.card {
+    max-width: 350px;
+    margin: auto;
+}
+
+.card-content {
+    background-color: black;
+    color: tomato;
+    padding: 10px;
+
+    transition: all 1s;
+}
+
+.card-content h4 {
+    transform: translateX(400px);
+
+    transition: all 1s;
+}
+
+.card-content p {
+    transform: translateX(-400px);
+
+    transition: all 1s;
+}
+
+.card:hover img{
+    transform: scale(1.2);
+}
+
+.card:hover h4 {
+    transform: translateX(0);
+}
+
+.card:hover p {
+    transform: translateX(0);
+}
+
+
