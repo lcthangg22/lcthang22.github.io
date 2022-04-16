@@ -100,11 +100,12 @@ body {
 
 .weekly h3 {
     text-align: center;
-    margin: 25px 0 25px;
+    margin: 50px 0 50px;
 }
 
 .weekly .tech {
-    width: 300px;
+    width: 330px;
+    height: 620px;
 }
 
 .him {
