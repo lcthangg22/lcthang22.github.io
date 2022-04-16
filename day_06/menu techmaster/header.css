@@ -44,7 +44,7 @@ img {
     align-items: center;
 }
 
-.menu > ul {
+.menu>ul {
     display: flex;
 }
 
@@ -57,7 +57,7 @@ img {
     position: relative;
     height: 60px;
     display: flex;
-align-items: center;
+    align-items: center;
 }
 
 .menu-item span {

@@ -1,4 +1,6 @@
-/* Reset 1 số thuộc tính về trạng thái ban đầu */
+@import url(./header.css);
+@import url(./footer.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +12,7 @@ body {
     background-color: #f4f7fa;
 }
 
-a {
+a{
     text-decoration: none;
 }
 
@@ -18,10 +20,13 @@ a {
     max-width: 100%;
     display: block;
     margin: auto;
+    height: 480px;
+    object-fit: cover;
 }
 
 .card {
     width: 1200px;
+    padding-top: 50px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -50,25 +55,38 @@ a {
     font-weight: 400;
 }
 
-.des {
-    color: #757575;
-    font-size: 14px;
-    font-weight: 100;
-    margin-bottom: 16px;
-}
 
-
-.rating {
-    color: #757575;
-    font-size: 14px;
-    font-weight: 100;
-}
-
-.rating span {
-    color: #ffd600;
-}
-
-.rat {
+.latest {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 10%;
+}
+
+.latest>ul {
+    padding: 20px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-left: 225px;
+}
+
+.latest li {
+    display: flex;
+    cursor: pointer;   
+}
+
+.latest img {
+    max-width: 100%;
+    width: 210px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.latest p {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
 }
